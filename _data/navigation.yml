@@ -3,8 +3,6 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Contact"
-    url: /contact/
     
   - title: "CV"
     url: /cv/
