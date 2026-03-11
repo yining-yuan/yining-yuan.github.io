@@ -5,24 +5,7 @@
 layout: default
 ---
 <div id="main" role="main" class="home-layout">
-	<aside class="home-sidebar">
-		<div class="home-sidebar__inner">
-			<img class="home-sidebar__image" src="{{ '/images/profile.jpg' | relative_url }}" alt="Yining Yuan">
-			<h1 class="home-sidebar__name">Yining Yuan</h1>
-			<p class="home-sidebar__description">Ph.D. student researching norm evolution in multi-agent systems.</p>
-			<ul class="home-sidebar__meta">
-				<li><strong>Email</strong><a href="mailto:yining.yuan@bristol.ac.uk">yining.yuan@bristol.ac.uk</a></li>
-				<li><strong>Location</strong><span>Bristol, UK</span></li>
-				<li><strong>Affiliation</strong><span>University of Bristol</span></li>
-			</ul>
-			<ul class="home-sidebar__links">
-				<li><a href="https://github.com/yining-yuan">GitHub</a></li>
-				<li><a href="https://www.linkedin.com/in/yining-yuan-15352b234/">LinkedIn</a></li>
-				<li><a href="https://research-information.bris.ac.uk/en/persons/yining-yuan/">University Profile</a></li>
-				<li><a href="https://orcid.org/0009-0000-3093-5526">ORCID</a></li>
-			</ul>
-		</div>
-	</aside>
+	{% include home-sidebar.html %}
 
 	<article class="home-content">
 		<section>

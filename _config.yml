@@ -16,6 +16,23 @@ url                      : https://yining-yuan.github.io # the base hostname & p
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yining-yuan/yining-yuan.github.io"
 
+home_sidebar:
+  image                  : "/images/profile.jpg"
+  name                   : "Yining Yuan"
+  description            : "Ph.D. student researching norm evolution in multi-agent systems."
+  email                  : "yining.yuan@bristol.ac.uk"
+  location               : "Bristol, UK"
+  affiliation            : "University of Bristol"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/yining-yuan"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/yining-yuan-15352b234/"
+    - label: "University Profile"
+      url: "https://research-information.bris.ac.uk/en/persons/yining-yuan/"
+    - label: "ORCID"
+      url: "https://orcid.org/0009-0000-3093-5526"
+
 
 
 
